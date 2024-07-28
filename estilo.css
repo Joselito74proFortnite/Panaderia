@@ -90,7 +90,7 @@ html{
     transform: translate(-50%,-50%);
     width: 50%;
     text-align: center;
-    color:#fff;
+    color: black;
 }
 #inicio .carrusel .info h2{
     font-size: 50px;
@@ -386,4 +386,29 @@ html{
     #contacto .fila input{
         width: 90%;
     }
+}
+
+.ubicacion {
+    width: 100%;
+    text-align: center;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 20px;
+    border:none;
+    background-color: #ff8f46;
+    color: #fff;
+    padding: 7px 25px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.ocultar {
+    display: none;
+}
+
+.mostrar {
+    display: block;
 }

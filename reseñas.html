@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="https://www.istockphoto.com/es/ilustraciones/pedazo-de-pastel" type="image/x-icon" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🎂Pan'Cake Pasteleria🎂</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="assets/fontawesome/css/all.min.css">
+</head>
+<body>
+    <!-- SECCION INICIO -->
+    <section id="inicio">
+        <header>
+            <div class="contenido-header">
+                <div class="logo">
+                    <h1>Pan'Cake Pasteleria</h1>
+                </div>
+                <nav id="nav">
+                    <ul>
+                        <li>
+                            <a href="index.html" onclick="seleccionar()">
+                                <i class="fa-solid fa-house"></i>
+                                <span>Inicio</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#sabores" onclick="seleccionar()">
+                                <i class="fa-solid fa-ice-cream"></i>
+                                <span>Sabores</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#platos" onclick="seleccionar()">
+                                <i class="fa-solid fa-utensils"></i>
+                                <span>Variado</span>
+                            </a></li>
+                        <li>
+                            <a href="reseñas.html" onclick="seleccionar()">
+                                <i class="fa-solid fa-star"></i>
+                                <span>Reseñas</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#contacto" onclick="seleccionar()">
+                                <i class="fa-solid fa-comments"></i>
+                                <span>Contacto</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="social">
+                    <a href="tel:+34 680 33 77 13">
+                        <i class="fa-brands fa-whatsapp"></i> Contacto
+                    </a>
+                    <a href="https://www.instagram.com/pancake_pasteleria"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/people/Pan-Cake-fleca-pastisseria/100037248972321/?name=xhp_nt__fb__action__open_user"><i class="fa-brands fa-facebook"></i></a> 
+                </div>
+                <div class="nav-responsive" id="bar" onclick="mostrarOcultarMenu()">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </div>
+        </header>
+
+        <!-- Carrusel -->
+        <div class="carrusel">
+            <div class="gallery js-flickity" data-flickity-options='{ "wrapAround":true, "pageDots": false, "autoPlay": true}'>
+                <div class="gallery-cell" >
+                    <img src="img/escaparate.png" alt="">
+                </div>
+                <div class="gallery-cell">
+                    <img src="img/sonrisas.png" alt="">
+                </div>
+                <div class="gallery-cell">
+                    <img src="img/galletas caras.png" alt="">
+                </div>
+                <div class="gallery-cell">
+                    <img src="img/pasteles.png" alt="">
+                </div>
+            </div>
+            <div class="info">
+                <h2>Panaderia 100% Artesana</h2>
+                <h3>"Autenticidad en Cada Miga"</h3>
+                <button><a href="#platos" onclick="seleccionar()">
+                    <i class=""></i>
+                    <span>Ver Más</span></button>
+                </a>
+            </div>
+        </div>
+
+    </section>
+    
+    <!-- SECCION SABORES -->
+
+    <section id="sabores">
+        <h2>Reseñas</h2>
+       
+        <div class="fila">
+            <div class="item">
+                <div class="icono">
+                    <img src="img/sin perfil.png" alt="">
+                </div>
+                <div class="info">
+                    <h3>leo m ⭐⭐⭐⭐⭐</h3>
+                    <p>Tanto el pan como las tartas de 10!! Hemos probado casi todas y están increíbles… la mejor pastelería en santa coloma con diferencia</p>
+                </div>
+            </div>
+             <div class="item">
+                <div class="icono">
+                    <img src="img/sin perfil.png" alt="">
+                </div>
+                <div class="info">
+                    <h3>Seyna Montero ⭐⭐⭐⭐⭐</h3>
+                    <p>Soy alérgica a la leche y al huevo, es la pastelería donde he podido encontrar pasteles veganos muy deliciososs.</p>
+                </div>
+            </div>
+           <div class="item">
+                <div class="icono">
+                    <img src="img/sin perfil.png" alt="">
+                </div>
+                <div class="info">
+                    <h3>Jordi SalvaT  ⭐⭐⭐⭐⭐</h3>
+                    <p>Las empanadas BUENÍSIMASSS y bien rellenas, la tarta d cumple q encargamos ESPECTACULAR!!!! Nuestra celebración ha sido inmejorable!!</p>
+                </div>
+            </div>
+        </div>
+       
+        <div class="fila">
+             <div class="item">
+                <div class="icono">
+                    <img src="img/sin perfil.png" alt="">
+                </div>
+                <div class="info">
+                    <h3>YOLANDA ROCA GOMEZ ⭐⭐⭐⭐⭐</h3>
+                    <p>Un pastel de cumpleaños delicioso y las bandejas de dulce y salado todo un éxito.</p>
+                </div>
+            </div>
+             <div class="item">
+                <div class="icono">
+                    <img src="img/sin perfil.png" alt="">
+                </div>
+                <div class="info">
+                    <h3>Imma Gimeno ⭐⭐⭐⭐⭐</h3>
+                    <p>Todo espectacular!! Los pasteles son muy buenos y bonitos.</p>
+                </div>
+            </div>
+             <div class="item">
+                <div class="icono">
+                    <img src="img/sin perfil.png" alt="">
+                </div>
+                <div class="info">
+                    <h3>Sandra Corriols ⭐⭐⭐⭐⭐</h3>
+                    <p>Gracias por vuestra amabilidad y la buena calidad de los productos que ofrecéis</p>
+                </div>
+            </div>
+        </div>
+
+        <span class="ocultar" id="text">    
+            <div class="fila">
+                <div class="item">
+                    <div class="icono">
+                        <img src="img/sin perfil.png" alt="">
+                    </div>
+                    <div class="info">
+                        <h3>Juan Carlos Lopez Valero ⭐⭐⭐⭐⭐</h3>
+                        <p>Muy amables , buen pan y mucha variedad en repostería</p>
+                    </div>
+                </div>
+                 <div class="item">
+                    <div class="icono">
+                        <img src="img/sin perfil.png" alt="">
+                    </div>
+                    <div class="info">
+                        <h3>Marc Penina ⭐⭐⭐⭐⭐</h3>
+                        <p>Deliciosos dulces y gran amabilidad. Lemon pie de 10</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="icono">
+                        <img src="img/sin perfil.png" alt="">
+                    </div>
+                    <div class="info">
+                        <h3>Manuel Carayol Rodriguez ⭐⭐⭐⭐</h3>
+                        <p>Pasteleria artesana, que espectacularidad de tartas..</p>
+                    </div>
+                </div>
+            </div>
+        </span>  
+    
+        <button class="btn" id="text_btn">Ver Más</button>
+
+    </section>
+
+    <!-- SECCION CONTACTO Y PIE DE PAGINA -->
+    <section id="contacto">
+        <div class="fila">
+            <div class="col">
+                <h1>🎂Panaderia Pasteleria artesana🎂</h1>
+            </div>
+            <div class="col">
+                <h3>Menú</h3>
+                <a href="index.html">Inicio</a>
+                <a href="#sabores">Sabores</a>
+                <a href="#sabores">Platos</a>
+                <a href="reseñas.html">Reseñas</a>
+            </div>
+            <div class="col">
+                <h3>Jefes de la Empresa</h3>
+                <a href="#">Rodolfo</a>
+                <a href="#">Mariana</a>
+            </div>
+            <div class="col">
+                <h3>Redes Sociales</h3>
+                <div class="media">
+                    <i class="fa-brands fa-facebook"></i> <a href="https://www.facebook.com/people/Pan-Cake-fleca-pastisseria/100037248972321/?name=xhp_nt__fb__action__open_user">Facebook</a>
+                </div>
+                <div class="media">
+                    <i class="fa-brands fa-instagram"></i> <a href="https://www.instagram.com/pancake_pasteleria">Instagram</a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script src="script.js"></script>
+    <script src="script boton.js"></script>
+
+</body>
+</html>
